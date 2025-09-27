@@ -6,11 +6,11 @@ export default function Testimonials()
         <section className="cs_primary_bg cs_shape_wrap_2">
             <div className="cs_shape_1">
                 <svg width="1041" height="1005" viewBox="0 0 1041 1005" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle opacity="0.3" cx="538.5" cy="502.5" r="501.5" stroke="#454545" stroke-width="2" />
-                    <circle opacity="0.3" cx="501.5" cy="526.5" r="458.5" stroke="#454545" stroke-width="2" />
-                    <circle opacity="0.3" cx="453" cy="570" r="424" stroke="#454545" stroke-width="2" />
-                    <circle opacity="0.3" cx="396" cy="591" r="377" stroke="#454545" stroke-width="2" />
-                    <circle opacity="0.3" cx="330" cy="630" r="329" stroke="#454545" stroke-width="2" />
+                    <circle opacity="0.3" cx="538.5" cy="502.5" r="501.5" stroke="#454545" strokeWidth="2" />
+                    <circle opacity="0.3" cx="501.5" cy="526.5" r="458.5" stroke="#454545" strokeWidth="2" />
+                    <circle opacity="0.3" cx="453" cy="570" r="424" stroke="#454545" strokeWidth="2" />
+                    <circle opacity="0.3" cx="396" cy="591" r="377" stroke="#454545" strokeWidth="2" />
+                    <circle opacity="0.3" cx="330" cy="630" r="329" stroke="#454545" strokeWidth="2" />
                 </svg>
             </div>
             <div className="cs_shape_2">
@@ -60,7 +60,7 @@ export default function Testimonials()
                                             </blockquote>
                                             <div className="cs_testimonial_meta">
                                                 <div className="cs_testimonial_avatar">
-                                                    <img src="/assets/img/avatar_1.png" alt="Avatar" />
+                                                    <Image src="/assets/img/avatar_1.png" alt="Avatar" width={100} height={100}/>
                                                 </div>
                                                 <div className="cs_testimonial_meta_right">
                                                     <h3 className="cs_testimonial_avatar_name">
@@ -93,7 +93,7 @@ export default function Testimonials()
                                             </blockquote>
                                             <div className="cs_testimonial_meta">
                                                 <div className="cs_testimonial_avatar">
-                                                    <img src="/assets/img/avatar_1.png" alt="Avatar" />
+                                                    <Image src="/assets/img/avatar_1.png" alt="Avatar" width={100} height={100}/>
                                                 </div>
                                                 <div className="cs_testimonial_meta_right">
                                                     <h3 className="cs_testimonial_avatar_name">
@@ -126,7 +126,7 @@ export default function Testimonials()
                                             </blockquote>
                                             <div className="cs_testimonial_meta">
                                                 <div className="cs_testimonial_avatar">
-                                                    <img src="/assets/img/avatar_1.png" alt="Avatar" />
+                                                    <Image src="/assets/img/avatar_1.png" alt="Avatar" width={100} height={100}/>
                                                 </div>
                                                 <div className="cs_testimonial_meta_right">
                                                     <h3 className="cs_testimonial_avatar_name">
