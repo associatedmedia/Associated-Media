@@ -1,23 +1,20 @@
-export default function aboutsec()
+export default function Aboutsec()
 {
     return (
         <>
 
        <div className="cs_height_130 cs_height_lg_60"></div>
-        {/*Start Moving Text */}
         <div className="cs_moving_section_wrap cs_bold">
             <div className="cs_moving_section_in">
                 <div className="cs_moving_section cs_stroke_text">
-                    More Creativity Power With Vixan Agency
+                    More Creativity Power With Associated Media
                 </div>
                 <div className="cs_moving_section cs_stroke_text">
-                    More Creativity Power With Vixan Agency
+                    More Creativity Power With Associated Media
                 </div>
             </div>
         </div>
-       {/*End Moving Text */}
         <div className="cs_height_130 cs_height_lg_60"></div>
-        {/*Start About Us Section */}
         <section className="cs_slider cs_slider_2 anim_div_ShowRightSide">
             <div className="swiper-wrapper">
                 <div className="swiper-slide">
@@ -35,11 +32,10 @@ export default function aboutsec()
                                 </div>
                                 <div className="cs_height_40 cs_height_lg_30"></div>
                                 <p className="cs_m0">
-                                    Welcome to our digital agency! We specialize in helping businesses like yours
+                                    Welcome to our Multimedia agency! We specialize in helping businesses like yours
                                     succeed online. From website design and development to digital marketing and
                                     advertising, we have the tools and expertise to elevate your online presence. Let us
-                                    help you lione
-                                    evolving world of digital.
+                                    help you lione evolving world of digital.
                                 </p>
                             </div>
                         </div>
@@ -60,11 +56,10 @@ export default function aboutsec()
                                 </div>
                                 <div className="cs_height_40 cs_height_lg_30"></div>
                                 <p className="cs_m0">
-                                    Welcome to our digital agency! We specialize in helping businesses like yours
+                                    Welcome to our Multimedia agency! We specialize in helping businesses like yours
                                     succeed online. From website design and development to digital marketing and
                                     advertising, we have the tools and expertise to elevate your online presence. Let us
-                                    help you lione
-                                    evolving world of digital.
+                                    help you lione  evolving world of digital.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +67,7 @@ export default function aboutsec()
                 </div>
                 <div className="swiper-slide">
                     <div className="cs_about cs_style_1">
-                        <div className="cs_about_bg cs_bg cs_swiper_parallax_bg" data-src="assets/img/about_img.png"></div>
+                        <div className="cs_about_bg cs_bg cs_swiper_parallax_bg" data-src="/assets/img/about_img.png"></div>
                         <div className="container">
                             <div className="cs_about_text">
                                 <div className="cs_section_heading cs_style_1">
@@ -85,11 +80,10 @@ export default function aboutsec()
                                 </div>
                                 <div className="cs_height_40 cs_height_lg_30"></div>
                                 <p className="cs_m0">
-                                    Welcome to our digital agency! We specialize in helping businesses like yours
+                                    Welcome to our Multimedia agency! We specialize in helping businesses like yours
                                     succeed online. From website design and development to digital marketing and
                                     advertising, we have the tools and expertise to elevate your online presence. Let us
-                                    help you lione
-                                    evolving world of digital.
+                                    help you lione evolving world of digital.
                                 </p>
                             </div>
                         </div>

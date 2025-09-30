@@ -12,13 +12,13 @@ export default function footer()
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="cs_footer_info">
-                            <Image src="/assets/img/footer_logo.svg" alt="Logo" width={94} height={35}/>
+                            <Image src="/assets/img/amlogo.png" alt="Logo" width={94} height={94}/>
                             <p>
                                 Welcome to our digital agency We specialize in helping business most like yours succeed
                                 online. From website design and development.
                             </p>
-                            <Link href="mailto:info@email.com"
-                                className="cs_primary_font anim_text_upanddowns"><span>info@email.com</span></Link>
+                            <Link href="mailto:solutions@associatedmedia.org"
+                                className="cs_primary_font anim_text_upanddowns"><span>solutions@associatedmedia.org</span></Link>
                         </div>
                     </div>
                     <div className="col-lg-6 offset-lg-1">
@@ -68,7 +68,7 @@ export default function footer()
                                             d="M0.704883 2.99347L8.08077 7.91091C8.35998 8.09707 8.67997 8.19012 8.99996 8.19012C9.31999 8.19012 9.64002 8.09703 9.91923 7.91091L17.2951 2.99347C17.7365 2.69939 18 2.2072 18 1.67599C18 0.762594 17.2569 0.0195312 16.3435 0.0195312H1.65646C0.743098 0.0195664 0 0.762629 0 1.67687C0 2.2072 0.263531 2.69939 0.704883 2.99347Z"
                                             fill="white" />
                                     </svg>
-                                </i> info@email.com
+                                </i>solutions@associatedmedia.org
                             </li>
                         </ul>
                     </div>
@@ -126,19 +126,4 @@ export default function footer()
         </>
     )
 }
-   export function FooterScripts() {
-  return (
-    <>
-      <Script src="/assets/js/plugins/jquery-3.7.0.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/plugins/isotope.pkg.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/swiper.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/lightgallery.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/SplitText.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/ScrollToPlugin.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/ScrollTrigger.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/ScrollSmoother.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/plugins/gsap.min.js" strategy="afterInteractive" />
-      <Script src="/assets/js/main.js" strategy="afterInteractive" />
-    </>
-  );
-}
+   
