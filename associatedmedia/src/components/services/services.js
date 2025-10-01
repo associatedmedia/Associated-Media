@@ -1,6 +1,15 @@
 import Link from "next/link";
 export default function Services()
 {
+    const services = [
+  { id: "01", title: "Video & Motion Graphics", desc: "We specialize in helping businesses succeed online." },
+  { id: "02", title: "Branding & Strategy", desc: "Creative branding solutions for your business." },
+  { id: "03", title: "Advertising", desc: "Targeted ad campaigns to grow your reach." },
+  { id: "04", title: "Web Development", desc: "Modern and scalable web applications." },
+  { id: "05", title: "Digital Marketing", desc: "SEO, social media, and online growth." },
+  { id: "06", title: "Printing & Rentals", desc: "Line production and equipment rentals." },
+  { id: "07", title: "More Services", desc: "Explore our complete service list." },
+];
     return(
         <>
          <div className="cs_height_150 cs_height_lg_60"></div>
@@ -17,7 +26,7 @@ export default function Services()
                         </h2>
                     </div>
                     <div className="cs_section_heading_right cs_btn_anim">
-                        <Link href="service.html" className="cs_btn cs_style_1 cs_color_1">
+                        <Link href="/service" className="cs_btn cs_style_1 cs_color_1">
                             <span>View Services</span>
                             <svg width="19" height="13" viewBox="0 0 19 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -29,26 +38,21 @@ export default function Services()
                 </div>
                 <div className="cs_height_50 cs_height_lg_10"></div>
                 <div className="cs_card_1_list">
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
+                    {services.map(service => (
+                        <div key={service.id} className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
                         <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                01
-                            </div>
+                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">{service.id}</div>
                         </div>
                         <div className="cs_card_right">
                             <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
+                            <h2 className="cs_card_title">
+                                <Link href="/service-details">{service.title}</Link>
+                            </h2>
+                            <div className="cs_card_subtitle">{service.desc}</div>
                             </div>
                         </div>
                         <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
+                            <Link href="/service-details" className="cs_card_link"> <span>
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd"
@@ -68,360 +72,12 @@ export default function Services()
                                             d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
                                             fill="currentColor" />
                                     </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="assets/img/hero_img_1.png">
-                                02
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Branding & Strategy</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                03
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Advertising </Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                04
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Web Development</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                05
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                06
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                07
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                08
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
-                        <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">
-                                09
-                            </div>
-                        </div>
-                        <div className="cs_card_right">
-                            <div className="cs_card_right_in">
-                                <h2 className="cs_card_title">
-                                    <Link href="service-details.html">Video & Motion Graphics</Link>
-                                </h2>
-                                <div className="cs_card_subtitle">
-                                    Welcome to our digital agency We specialize in helping business most like yours
-                                    succeed online. From website design and development to digital marketing agency.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cs_card_link_wrap">
-                            <Link href="service-details.html" className="cs_card_link">
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                                <span>
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M0.340728 29.2063C0.722095 29.5875 1.34043 29.5875 1.72188 29.2063L29.0656 1.8625C29.4469 1.48106 29.4469 0.862698 29.0656 0.481253C28.6842 0.100002 28.0658 0.100002 27.6844 0.481253L0.340728 27.825C-0.0406592 28.2064 -0.0406592 28.8248 0.340728 29.2063Z"
-                                            fill="currentColor" />
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                            d="M28.375 26.5625C28.9143 26.5625 29.3516 26.1252 29.3516 25.5859V1.17188C29.3516 0.632618 28.9143 0.195312 28.375 0.195312H3.96094C3.42168 0.195312 2.98438 0.632618 2.98438 1.17188C2.98438 1.71113 3.42168 2.14844 3.96094 2.14844H27.3984V25.5859C27.3984 26.1252 27.8357 26.5625 28.375 26.5625Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
+                                </span></Link>
+      </div>
+    </div>
+  ))}
+</div>
+    
             </div>
             <div className="cs_height_100 cs_height_lg_30"></div>
            

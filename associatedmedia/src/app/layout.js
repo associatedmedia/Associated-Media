@@ -8,6 +8,7 @@ import "swiper/css/navigation"; // optional modules
 import "swiper/css/pagination";
 import Link from 'next/link';
 
+
 // import modules you want
 import { Navigation, Pagination } from "swiper/modules";
 
