@@ -1,15 +1,7 @@
 import Link from "next/link";
+import {services} from '@/lib/constant';
 export default function Services()
 {
-    const services = [
-  { id: "01", title: "Video & Motion Graphics", desc: "We specialize in helping businesses succeed online." },
-  { id: "02", title: "Branding & Strategy", desc: "Creative branding solutions for your business." },
-  { id: "03", title: "Advertising", desc: "Targeted ad campaigns to grow your reach." },
-  { id: "04", title: "Web Development", desc: "Modern and scalable web applications." },
-  { id: "05", title: "Digital Marketing", desc: "SEO, social media, and online growth." },
-  { id: "06", title: "Printing & Rentals", desc: "Line production and equipment rentals." },
-  { id: "07", title: "More Services", desc: "Explore our complete service list." },
-];
     return(
         <>
          <div className="cs_height_150 cs_height_lg_60"></div>

@@ -32,7 +32,7 @@
 
     --cr_banner-color: #181818;
 
-    --accent-color: #ff6b00;
+    --accent-color: #bb1800;
 
     --body-color: #e0e0e0;
 
@@ -308,7 +308,7 @@ a:hover {
 
     text-decoration: none;
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -1610,7 +1610,7 @@ hr {
 
 .cs_accent_color_hover:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -8076,7 +8076,7 @@ label {
 
 .cs_footer_social a:hover {
 
-    border-color: #ff6b00;
+    border-color:#bb1800 ;
 
 }
 
