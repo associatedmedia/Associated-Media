@@ -42,3 +42,107 @@ export  const mobileItems = [
   { id: "08", title: "Equipment Rentals", desc: "Explore our complete service list." },
   { id: "09", title: "Social Media", desc: "Explore our complete service list." },
 ];
+export const logos = [
+    "partner_9.svg",
+    "partner_10.svg",
+    "partner_11.svg",
+    "partner_12.svg",
+    "partner_13.svg",
+    "partner_14.svg",
+    "partner_15.svg",
+    "partner_1.svg",
+    "partner_3.svg",
+  ];
+ export const FORM_FIELDS = [
+  { id: "test1", name: "name", type: "text", placeholder: "Name", label: "Name" },
+  { id: "test2", name: "email", type: "email", placeholder: "Email", label: "Email" },
+  { id: "test3", name: "phone", type: "text", placeholder: "Phone", label: "Phone" },
+  { id: "test4", name: "subject", type: "text", placeholder: "Subject", label: "Subject" },
+  { id: "test5", name: "message", type: "text", placeholder: "Message", label: "Message" },
+];
+
+export const FORM_BUTTON = {
+  text: "Send Now",
+  svg: (
+    <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M18.5303 7.03033C18.8232 6.73744 18.8232 6.26256 18.5303 5.96967L13.7574 1.1967C13.4645 0.903806 12.9896 0.903806 12.6967 1.1967C12.4038 1.48959 12.4038 1.96447 12.6967 2.25736L16.9393 6.5L12.6967 10.7426C12.4038 11.0355 12.4038 11.5104 12.6967 11.8033C12.9896 12.0962 13.4645 12.0962 13.7574 11.8033L18.5303 7.03033ZM0 7.25H18V5.75H0V7.25Z"
+        fill="currentColor"
+      />
+    </svg>
+  ),
+};
+export const steps = [
+    {
+      number: "One",
+      title: "Understand",
+      description: "Welcome to our digital agency. We specialize in helping your business most.",
+    },
+    {
+      number: "Two",
+      title: "Design",
+      description: "Welcome to our digital agency. We specialize in helping your business most.",
+    },
+    {
+      number: "Three",
+      title: "Development",
+      description: "Welcome to our digital agency. We specialize in helping your business most.",
+    },
+    {
+      number: "Four",
+      title: "Testing",
+      description: "Welcome to our digital agency. We specialize in helping your business most.",
+    },
+  ];
+  export const categories = [
+    { label: "All", filter: "*" },
+    { label: "UI Design", filter: "cs_ui_design" },
+    { label: "UX Design", filter: "cs_ux_design" },
+    { label: "Development", filter: "cs_development" },
+    { label: "Finance", filter: "cs_finance" },
+  ];
+
+  export const portfolioItems = [
+    {
+      id: 1,
+      title: "Project Task Management",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_1.png",
+      categories: ["cs_ui_design", "cs_development"],
+    },
+    {
+      id: 2,
+      title: "Finance Dashboard",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_2.png",
+      categories: ["cs_ux_design", "cs_finance", "cs_development"],
+    },
+    {
+      id: 3,
+      title: "Creative UI Kit",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_3.png",
+      categories: ["cs_ux_design", "cs_finance", "cs_ui_design"],
+    },
+    {
+      id: 4,
+      title: "Investment Planner",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_5.png",
+      categories: ["cs_ux_design", "cs_finance", "cs_ui_design"],
+    },
+    {
+      id: 5,
+      title: "Web Development",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_6.png",
+      categories: ["cs_ux_design", "cs_development"],
+    },
+    {
+      id: 6,
+      title: "UX Flow System",
+      subtitle: "Digital Services / App Design",
+      image: "/assets/img/portfolio_7.png",
+      categories: ["cs_ux_design"],
+    },
+  ];

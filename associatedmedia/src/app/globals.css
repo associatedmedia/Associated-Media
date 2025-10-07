@@ -4,7 +4,7 @@
 
     --heading-font-family: "Inter Tight", sans-serif;
 
-    --accent-color: #ff6b00;
+    --accent-color: #bb1800;
 
     --body-color: #454545;
 
@@ -1862,7 +1862,7 @@ hr {
 
 .cs_accent_bg_hover:hover {
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
 }
 
@@ -2132,7 +2132,7 @@ hr {
 
 .cs_btn.cs_style_2 a:hover {
 
-    border: 1px solid #ff6b00;
+    border: 1px solid #bb1800;
 
 }
 
@@ -2198,9 +2198,9 @@ hr {
 
 .cs_share_post .cs_share_btn_g .cs_share_btn:hover {
 
-    border: 1px solid #ff6b00;
+    border: 1px solid #bb1800;
 
-    color: #ff6b00;
+    color: #bb1800;
 
     transition: all 0.1s ease;
 
@@ -2280,7 +2280,7 @@ hr {
 
 .cs_pagination_item.active {
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     color: #fff;
 
@@ -2316,7 +2316,7 @@ hr {
 
 .cs_form_field:focus {
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -2446,7 +2446,7 @@ label {
 
     height: 40px;
 
-    border: 1px solid #ff6b00;
+    border: 1px solid #bb1800;
 
     left: 0;
 
@@ -2466,7 +2466,7 @@ label {
 
     height: 8px;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     left: 0;
 
@@ -2674,7 +2674,7 @@ label {
 
     height: 88px;
 
-    border: 2px solid #ff6b00;
+    border: 2px solid #bb1800;
 
     position: absolute;
 
@@ -2732,7 +2732,7 @@ label {
 
     height: 138px;
 
-    border: 2px solid #ff6b00;
+    border: 2px solid #bb1800;
 
     position: absolute;
 
@@ -2762,7 +2762,7 @@ label {
 
     height: 20px;
 
-    background: #ff6b00;
+    background: #bb1800;
 
     border-radius: 50%;
 
@@ -2806,7 +2806,7 @@ label {
 
     left: 50%;
 
-    border: 1px solid #ff6b00;
+    border: 1px solid #bb1800;
 
     width: 184px;
 
@@ -3600,7 +3600,7 @@ label {
 
     width: 100px;
 
-    border: 0.5px solid #ff6b00;
+    border: 0.5px solid #bb1800;
 
 }
 
@@ -3948,7 +3948,7 @@ label {
 
     width: 151px;
 
-    background: #ff6b00;
+    background: #bb1800;
 
     opacity: 0.8;
 
@@ -4078,7 +4078,7 @@ label {
 
     bottom: -60px;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     border-radius: inherit;
 
@@ -4152,7 +4152,7 @@ label {
 
 .cs_tab_links.cs_style1 li.active a {
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     border-radius: 10px;
 
@@ -4362,7 +4362,7 @@ label {
 
 .cs_scrollup:hover {
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     color: #fff;
 
@@ -4478,7 +4478,7 @@ label {
 
     width: 0%;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     left: 0;
 
@@ -4692,7 +4692,7 @@ label {
 
     font-size: 18px;
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -5236,7 +5236,7 @@ label {
 
     height: 40px;
 
-    border: 2px solid #ff6b00;
+    border: 2px solid #bb1800;
 
     border-radius: 50%;
 
@@ -5288,7 +5288,7 @@ label {
 
     height: 8px;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
     border-radius: 50%;
 
@@ -5808,7 +5808,7 @@ label {
 
 .cs_swiper_navigation_wrap>*:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -6922,7 +6922,7 @@ label {
 
 .cs_close:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
     transform: scale(1.05);
 
@@ -7296,7 +7296,7 @@ label {
 
         box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
 
-        border-top: 2px solid #ff6b00;
+        border-top: 2px solid #bb1800;
 
         padding: 5px 0px;
 
@@ -8472,7 +8472,7 @@ label {
 
 .cs_isotop_filter.cs_style1 .active a {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -8710,9 +8710,9 @@ label {
 
     color: #fff;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -8890,7 +8890,7 @@ label {
 
 .cs_sidebar_search input:focus {
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -8922,7 +8922,7 @@ label {
 
 .cs_sidebar_search_btn:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -9286,7 +9286,7 @@ label {
 
     --color-1: #fff;
 
-    --color-2: #ff6b00;
+    --color-2: #bb1800;
 
 }
 
@@ -9294,7 +9294,7 @@ label {
 
 .cs_hero.cs_style2 .cs_right_text .t2 {
 
-    --color-1: #ff6b00;
+    --color-1: #bb1800;
 
     --color-2: #fff;
 
@@ -10418,9 +10418,9 @@ label {
 
     color: #fff;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -10480,9 +10480,9 @@ label {
 
     color: #fff;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -10510,9 +10510,9 @@ label {
 
     color: #fff;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
-    border-color: #ff6b00;
+    border-color: #bb1800;
 
 }
 
@@ -11064,7 +11064,7 @@ label {
 
     transition: all 0.5s;
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -11522,7 +11522,7 @@ label {
 
     transition-delay: 0.7s;
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12190,7 +12190,7 @@ label {
 
 .cs_creative_protfolio_details .cs_project_card .cs_project_card_text :hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12198,7 +12198,7 @@ label {
 
 .cs_creative_protfolio_details .cs_project_card .cs_project_card_text .cs_subtitle {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12236,7 +12236,7 @@ label {
 
 .cs_creative_protfolio_menu ul li:nth-child(1) {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12244,7 +12244,7 @@ label {
 
 .cs_creative_protfolio_menu ul li:active {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12252,7 +12252,7 @@ label {
 
 .cs_creative_protfolio_menu ul li:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12290,7 +12290,7 @@ label {
 
 .cs_isotop_item_menu ul li:nth-child(1) {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12298,7 +12298,7 @@ label {
 
 .cs_isotop_item_menu ul li:active {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12306,7 +12306,7 @@ label {
 
 .cs_isotop_item_menu ul li:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12356,7 +12356,7 @@ label {
 
 .cs_isotop_items_details .cs_item .cs_item_hover .cs_item_text p {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12524,7 +12524,7 @@ label {
 
 .cs_portfolio.cs_style_1 .cs_portfolio_title:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -12654,7 +12654,7 @@ label {
 
 .cs_portfolio.cs_style_2 .cs_portfolio_title:hover {
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -13130,7 +13130,7 @@ label {
 
     width: 135px;
 
-    background: #ff6b00;
+    background: #bb1800;
 
     filter: blur(125px);
 
@@ -13878,7 +13878,7 @@ label {
 
     margin-right: 15px;
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
 }
 
@@ -13960,7 +13960,7 @@ label {
 
 .cs_creative_protfolio.cs_card_style_change .cs_card.cs_style_1.cs_color_1:hover>.cs_card_link_wrap .cs_card_link {
 
-    color: #ff6b00;
+    color: #bb1800;
 
     transform: rotate(0deg);
 
@@ -14338,7 +14338,7 @@ label {
 
     height: 15px;
 
-    background: #ff6b00;
+    background: #bb1800;
 
     border-radius: 50%;
 
@@ -14354,7 +14354,7 @@ label {
 
     transform: rotate(90deg);
 
-    background: #ff6b00;
+    background: #bb1800;
 
     margin-left: -7px;
 
@@ -14416,7 +14416,7 @@ label {
 
     transition: all 0.5s;
 
-    color: #ff6b00;
+    color: #bb1800;
 
 }
 
@@ -14664,7 +14664,7 @@ label {
 
 .cs_icon .cs_icon_style:hover {
 
-    background-color: #ff6b00;
+    background-color: #bb1800;
 
 }
 

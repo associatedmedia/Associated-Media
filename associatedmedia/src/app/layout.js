@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`dark ${interTight.className} ${kanit.className}`}>
+         
         {children}
         <FooterScripts/>
       </body>
