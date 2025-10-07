@@ -11,7 +11,7 @@ export default function ServicesPage()
         <>
         <Navbar/>
         <Services/>
-        <div class="cs_height_115 cs_height_lg_60"></div>
+        <div className="cs_height_115 cs_height_lg_60"></div>
     <section>
       <div className="cs_primary_bg">
         <div className="cs_height_135 cs_height_lg_70"></div>
@@ -31,8 +31,6 @@ export default function ServicesPage()
           </div>
 
           <div className="cs_height_100 cs_height_lg_70"></div>
-
-          {/* Work Steps */}
           <div className="anim_div_ShowLeftSide">
             <div className="cs_work cs_work_1">
               <div className="cs_card_work cs_style_1 cs_color_1">
@@ -107,8 +105,6 @@ export default function ServicesPage()
             </div>
 
         </section>
-
-        
         <Footer/>
         </>
     )
