@@ -23,11 +23,11 @@ export default function footer()
                     </div>
                     <div className="col-lg-6 offset-lg-1">
                         <div className="cs_footer_social">
-                            <Link href="https://www.facebook.com/" className="cs_center">Facebook</Link>
-                            <Link href="https://www.linkedin.com/" className="cs_center">Linkedin</Link>
-                            <Link href="https://www.instagram.com/" className="cs_center">Instagram</Link>
-                            <Link href="https://twitter.com/" className="cs_center">Twitter</Link>
-                            <Link href="https://dribbble.com/" className="cs_center">Dribbble</Link>
+                            <button href="https://www.facebook.com/" className="cs_center glow-on-hover ">Facebook</button>
+                            <button href="https://www.linkedin.com/" className="cs_center glow-on-hover ">Linkedin</button>
+                            <button href="https://www.instagram.com/" className="cs_center glow-on-hover ">Instagram</button>
+                            <button href="https://twitter.com/" className="cs_center glow-on-hover">Twitter</button>
+                            <button href="https://youtube.com/" className="cs_center glow-on-hover">Youtube</button>
                         </div>
                         <div className="cs_height_60 cs_height_lg_30"></div>
                         <ul className="cs_footer_contact_list cs_mp0">
@@ -39,7 +39,7 @@ export default function footer()
                                             d="M7 0.0195312C3.14027 0.0195312 0 3.01027 0 6.68621C0 7.78973 0.289693 8.88387 0.840408 9.85434L6.6172 17.8047C6.69411 17.9373 6.84065 18.0195 7 18.0195C7.15935 18.0195 7.30589 17.9373 7.3828 17.8047L13.1617 9.85105C13.7103 8.88387 14 7.78969 14 6.68617C14 3.01027 10.8597 0.0195312 7 0.0195312ZM7 10.0195C5.07014 10.0195 3.50002 8.52418 3.50002 6.68621C3.50002 4.84824 5.07014 3.35289 7 3.35289C8.92986 3.35289 10.5 4.84824 10.5 6.68621C10.5 8.52418 8.92986 10.0195 7 10.0195Z"
                                             fill="white" />
                                     </svg>
-                                </i> 46 JOHN ST TORONTO ON M5V 3W2
+                                </i> Poloview, Srinagar, J&K
                             </li>
                             <li>
                                 <i>
@@ -55,7 +55,7 @@ export default function footer()
                                             d="M15.1294 2.93344C13.5338 1.33791 11.5151 0.330398 9.28656 0.0195312L9.0918 1.40907C11.0169 1.67874 12.7623 2.55141 14.1406 3.92597C15.4477 5.23311 16.3054 6.88483 16.6163 8.70134L17.9983 8.46538C17.635 6.36047 16.6425 4.45033 15.1294 2.93344Z"
                                             fill="white" />
                                     </svg>
-                                </i> (406) 555-0120
+                                </i> (0194) 247-9356
                             </li>
                             <li>
                                 <i>

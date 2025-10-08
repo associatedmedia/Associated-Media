@@ -83,7 +83,7 @@ export default function ContactPage()
 
         <div className="cs_height_60 cs_height_lg_60"></div>
 
-        <button type="submit" className="cs_btn cs_style_1 cs_type_btn">
+        <button type="submit" className=" glow-on-hover">
           <span>{FORM_BUTTON.text}</span>
           {FORM_BUTTON.svg}
         </button>
@@ -94,7 +94,7 @@ export default function ContactPage()
 
                     <div className="cs_contact_section_2 anim_div_ShowRightSide">
 
-                        <div className="cs_google_map cs_bg" data-src="assets/img/map_img.png">
+                        <div className="cs_google_map cs_bg" data-src="/assets/img/map_img.png">
 
                             <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206.55474275240013!2d74.81942536393318!3d34.0726957984589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e18f9bc412d29f%3A0x16a0d29bd3cc2ffa!2sAssociated%20Media!5e0!3m2!1sen!2sin!4v1759569133710!5m2!1sen!2sin"
@@ -250,6 +250,7 @@ export default function ContactPage()
          </div>
 
         <div className="cs_height_150 cs_height_lg_60"></div>
+        <Footer/>
         </>
     )
 }

@@ -30,10 +30,10 @@ Our cutting edge technological equipment and team of strategists and content cre
                                     <div className="cs_height_65 cs_height_lg_40"></div>
                                     <div className="cs_hero_btn_wrap">
                                         <div className="cs_round_btn_wrap">
-                                            <a href="portfolio.html"
-                                                className="cs_hero_btn cs_round_btn btn-item"><span></span>
+                                            <button href="/portfolio"
+                                                className=" glow-on-hover"><span></span>
                                                 Our
-                                                Projects</a>
+                                                Projects</button>
                                         </div>
                                     </div>
                                 </div>
