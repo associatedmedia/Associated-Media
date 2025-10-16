@@ -12,7 +12,7 @@ export default function navlist()
        <>
               <ul className="cs_nav_list">
                                 {menuItems.map((item, index) => (
-          <li className="menu-item-has-children" key={index}>
+          <li className="" key={index}>
             <Link href={item.path}>{item.name}</Link>
           </li>
         ))}

@@ -18,7 +18,7 @@ export default function Services()
                         </h2>
                     </div>
                     <div className="cs_section_heading_right cs_btn_anim">
-                        <Link href="/service" className="cs_btn cs_style_1 cs_color_1">
+                        <Link href="/services" className="cs_btn cs_style_1 cs_color_1">
                             <span>View Services</span>
                             <svg width="19" height="13" viewBox="0 0 19 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -33,18 +33,18 @@ export default function Services()
                     {services.map(service => (
                         <div key={service.id} className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns">
                         <div className="cs_card_left">
-                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.png">{service.id}</div>
+                            <div className="cs_card_number cs_primary_font" data-src="/assets/img/hero_img_1.jpg">{service.id}</div>
                         </div>
                         <div className="cs_card_right">
                             <div className="cs_card_right_in">
                             <h2 className="cs_card_title">
-                                <Link href="/service-details">{service.title}</Link>
+                                <Link href={`/services/${service.slug}`}>{service.title}</Link>
                             </h2>
                             <div className="cs_card_subtitle">{service.desc}</div>
                             </div>
                         </div>
                         <div className="cs_card_link_wrap">
-                            <Link href="/service-details" className="cs_card_link"> <span>
+                            <Link href={`/services/${service.slug}`} className="cs_card_link"> <span>
                                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd"

@@ -46,7 +46,7 @@ export default function ServicesPage()
                       </div>
                     </div>
 
-                    <h6 className="cs_work_title">{step.title}</h6>
+                    <Link href={'/services/${service.slug}'}><h6 className="cs_work_title">{step.title}</h6></Link>
                     <p className="cs_work_subtitle">{step.description}</p>
                   </div>
                 ))}

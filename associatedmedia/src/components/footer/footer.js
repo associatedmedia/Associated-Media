@@ -23,10 +23,10 @@ export default function footer()
                     </div>
                     <div className="col-lg-6 offset-lg-1">
                         <div className="cs_footer_social">
-                            <button href="https://www.facebook.com/" className="cs_center glow-on-hover ">Facebook</button>
-                            <button href="https://www.linkedin.com/" className="cs_center glow-on-hover ">Linkedin</button>
-                            <button href="https://www.instagram.com/" className="cs_center glow-on-hover ">Instagram</button>
-                            <button href="https://twitter.com/" className="cs_center glow-on-hover">Twitter</button>
+                            <button href="https://www.facebook.com/" className="cs_center glow-on-hover magi">Facebook</button>
+                            <button href="https://www.linkedin.com/" className="cs_center glow-on-hover magi">Linkedin</button>
+                            <button href="https://www.instagram.com/" className="cs_center glow-on-hover magi">Instagram</button>
+                            <button href="https://twitter.com/" className="cs_center glow-on-hover ">Twitter</button>
                             <button href="https://youtube.com/" className="cs_center glow-on-hover">Youtube</button>
                         </div>
                         <div className="cs_height_60 cs_height_lg_30"></div>

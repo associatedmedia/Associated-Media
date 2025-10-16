@@ -1,7 +1,6 @@
 import Navbar from '@/components/header/navbar/navbar';
 import Herosection from '@/components/herosection/herosection';
 import Work from '@/components/work/work';
-import Midsec from '@/components/midsection/midsection';
 import Aboutsec from '@/components/about/about';
 import Services from '@/components/services/services';
 import Testimonials from '@/components/testimonials/testimonials';

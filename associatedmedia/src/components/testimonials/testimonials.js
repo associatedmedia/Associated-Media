@@ -3,23 +3,48 @@ import Image from "next/image";
 export default function Testimonials() {
   const testimonials = [
     {
-      text: "Welcome to our digital agency. We specialize in helping businesses like yours succeed online. From website design and development to digital marketing agency.",
-      name: "Delores Olivo",
-      designation: "From UK",
-      avatar: "/assets/img/avatar_1.png",
+      text: "I had the pleasure to work with Associated media two times in Kashmir, producing a documentary format series for TV2 Norway, and later for Travel Channel USA. I highly recommend any team filming in Kashmir to work with this highly professional, skilled and very pleasant team.",
+      name: "Gry Winther",
+      designation: "Creator/Executive Producer/Director",
+      avatar: "/assets/img/gry.jpg",
     },
     {
-      text: "The team was amazing! They transformed our online presence and boosted our growth massively. Highly recommend their creative services.",
-      name: "Michael Carter",
-      designation: "From USA",
-      avatar: "/assets/img/avatar_2.png",
+      text: "There is one excellent film production company in Kashmir, this is it! I had the great pleasure to work with these professionals, shooting a documentary series for Travel Channel. Equipment, Crew, Stocks, you name it they got it. Highly appreciated and warmly recommended.",
+      name: "Meidell Olsen",
+      designation: "Director Of Photography (Travel Channel).",
+      avatar: "/assets/img/meidell.jpg",
     },
     {
-      text: "Professional, creative, and reliable. They delivered our project on time with excellent results. A trusted partner in our digital journey.",
-      name: "Sophia Lee",
-      designation: "From Singapore",
-      avatar: "/assets/img/avatar_3.png",
+      text: "We have worked with Associated Media on an international film. Excellent production company with latest equipment and experienced crew.",
+      name: "Jason Motlagh",
+      designation: "Writer, Broadcast Journalist, Filmmaker, rolling stone, time magazine's, national geographic, the washington post, the guardian and the economist, al-jazeera english, national geographic, cgtn america, sbs dateline and vice world news.",
+      avatar: "/assets/img/motlagh.jpg",
     },
+    {
+      text: "Their familarity with the local context, skilled cameraman and technicians, and high end facilities were additional assets and we value our experience with them highly.",
+      name: "Vaishali Sinha",
+      designation: "Director/Producer, 'My Kashmir'.",
+      avatar: "/assets/img/vaishali.jpg",
+    },
+    {
+      text: "Associated Kashmir was a fantastic partner in the production of Valley of Saints in Kashmir, Their team helped us at every stage from script to scene.",
+      name: "Nicholas Bruckman",
+      designation: "Producer /Founder Peoples  TV Network.",
+      avatar: "/assets/img/nicholas.jpg",
+    },
+     {
+      text: "Associated Media was a key partner for our production in Kashmir. Tariq, Wajahat, & their whole team were professional, trustworthy, efficient, & supportive. They were able to provide everything we needed:locations, onscreen talent, permissions, equipment, archival footage, and even original motion graphics. If you are shooting in Kashmir, they should be the first ones you contact.",
+      name: "Musa Syeed",
+      designation: "Director, Valley Of Saints,  New York, USA",
+      avatar: "/assets/img/musa.jpg",
+    },
+    {
+      text: "We have worked with them multiple times in different capacities – for filming, camera, archival footage – and found their work of a high professional standard and quality “.",
+      name: "Maduri Mohindar",
+      designation: "Communications Consultant & Multimedia producer Breakthrough",
+      avatar: "/assets/img/madhuri.jpg",
+    },
+    
   ];
 
   return (
@@ -103,7 +128,7 @@ export default function Testimonials() {
             {/* Left side thumbnail */}
             <div className="col-lg-4">
               <Image
-                src="/assets/img/testimonial_thumb_1.png"
+                src="/assets/img/testimonial_thumb_1.jpg"
                 alt="Testimonials"
                 className="w-100"
                 width={620}
