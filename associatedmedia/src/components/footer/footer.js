@@ -84,7 +84,7 @@ export default function footer()
                 </ul>
             </div>
             <div className="cs_copyright text-center">
-                <div className="container">Copyright 2023, All Right reserved</div>
+                <div className="container">Copyright 2026, All Right reserved</div>
             </div>
         </footer>
     <div className="cs_toggle">
