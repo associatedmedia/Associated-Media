@@ -40,7 +40,6 @@ export  const mobileItems = [
   { id: "06", title: "Printing", desc: "Line production and equipment rentals.", slug: "printing", },
   { id: "07", title: "Line Production", desc: "Explore our complete service list." , slug: "line_production",},
   { id: "08", title: "Equipment Rentals", desc: "Explore our complete service list.",  slug: "equipment_rentals", },
-  { id: "09", title: "Social Media", desc: "Explore our complete service list." , slug: "social_media",},
 ];
 export const logos = [
     "partner_9.svg",
@@ -94,27 +93,14 @@ export const steps = [
       description: "Welcome to our digital agency. We specialize in helping your business most.",
     },
   ];
-  export const categories = [
-    { label: "All", filter: "*" },
-    { label: "Video & Motion Graphics", filter: "video_motion_graphics" },
-    { label: "Branding & Strategy", filter: "branding_strategy" },
-    { label: "Advertising", filter: "advertising" },
-    { label: "Web Development", filter: "Web_development" },
-    { label: "Digital Marketing", filter: "digital_marketing" },
-    { label: "Printing", filter: "printing" },
-    { label: "Line Production", filter: "line_production" }, 
-    { label: "Equipment Rentals", filter: "equipment_rentals" },       
-    { label: "Social Media", filter: "social_media" },
-  ];
-
+ 
   export const portfolioItems = [
     {
       id: 1,
-      slug: "video_motion_graphics",
-      title: "Video & Motion Graphics",
-      subtitle: "Digital Services / App Design",
+      slug: "pride_of_kashmir",
+      title: "Pride Of Kashmir",
+      subtitle: "Digital Services / Web Development",
       image: "/assets/img/portfolio_1.png",
-      categories: ["video_motion_graphics"],
     },
     {
       id: 2,
@@ -122,7 +108,6 @@ export const steps = [
       title: "Branding & Strategy",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_2.png",
-      categories: ["branding_strategy"],
     },
     {
       id: 3,
@@ -130,7 +115,6 @@ export const steps = [
       title: "Advertising",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_3.png",
-      categories: ["advertising"],
     },
     {
       id: 4,
@@ -138,7 +122,6 @@ export const steps = [
       title: "Web Development",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_5.png",
-      categories: ["Web_development"],
     },
    
     {
@@ -147,7 +130,6 @@ export const steps = [
       title: "Digital Marketing",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_7.png",
-      categories: ["digital_marketing"],
     },
     {
       id: 6,
@@ -155,30 +137,12 @@ export const steps = [
       title: "Printing",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_7.png",
-      categories: ["printing"],
     },
     {
       id: 7,
-      slug: "line_production",
-      title: "Line Production",
-      subtitle: "Digital Services / App Design",
-      image: "/assets/img/portfolio_7.png",
-      categories: ["line_production"],
-    },
-     {
-      id: 8,
-      slug: "social_media",
-      title: "Social Media",
-      subtitle: "Digital Services / App Design",
-      image: "/assets/img/portfolio_6.png",
-      categories: ["social_media"],
-    },
-     {
-      id: 9,
       slug: "equipment_rentals",
       title: "Equipment Rentals",
       subtitle: "Digital Services / App Design",
       image: "/assets/img/portfolio_6.png",
-      categories: ["equipment_rentals"],
     },
   ];

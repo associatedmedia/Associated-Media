@@ -6,15 +6,10 @@ import Testimonials from '@/components/testimonials/testimonials';
 import Link from "next/link";
 import {portfolioItems} from '@/lib/constant';
 import {categories} from '@/lib/constant';
-export default function PortfolioPage()
-{
-    const [activeFilter, setActiveFilter] = useState("*");
+export default function PortfolioPage( {params} ){
+ const { slug } = params;
 
-  // ✅ Filter logic
-  const filteredItems =
-    activeFilter === "*"
-      ? portfolioItems
-      : portfolioItems.filter((item) => item.categories.includes(activeFilter));
+   
 
     return(
         <>
@@ -49,32 +44,13 @@ export default function PortfolioPage()
 
          <section className="cs_ui_design">
       <div className="container">
-        {/* ====== FILTER MENU ====== */}
-        <div className="row">
-          <div className="cs_isotop_item_menu col-md-12">
-            <ul className="anim_div_ShowZoom">
-              {categories.map((cat) => (
-                <li
-                  key={cat.filter}
-                  data-filter={cat.filter}
-                  className={activeFilter === cat.filter ? "active" : ""}
-                  onClick={() => setActiveFilter(cat.filter)}
-                  style={{ cursor: "pointer" }}
-                >
-                  {cat.label}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+       
 
         {/* ====== PORTFOLIO ITEMS ====== */}
         <div className="cs_isotop_items_details row">
-          {filteredItems.map((item) => (
+          {portfolioItems.map((item) => (
             <div
-              key={item.id}
-              className={`col-md-4 cs_item ${item.categories.join(" ")}`}
-            >
+              key={item.id} className="col-md-4 cs_item ">
               <Link href="/portfolio" className="cs_portfolio cs_style_1">
                 <div className="cs_portfolio_img">
                   <Image
@@ -87,7 +63,7 @@ export default function PortfolioPage()
                 </div>
                 <div className="cs_portfolio_overlay"></div>
                 <div className="cs_portfolio_info">
-                  <h2 className="cs_portfolio_title">{item.title}</h2>
+                  <Link href={`/portfolio/${item.slug}`}><h2 className="cs_portfolio_title">{item.title}</h2></Link>
                   <div className="cs_portfolio_subtitle">{item.subtitle}</div>
                 </div>
               </Link>
