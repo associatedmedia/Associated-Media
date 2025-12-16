@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function navlist()
 { 
     const menuItems = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/HomeNew" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Portfolio", path: "/portfolio" },
